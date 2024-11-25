@@ -1,6 +1,6 @@
 # **A New Tailored Skip Connection (TSC) for Auto Encoders**
 
-![Project Logo](https://via.placeholder.com/800x300?text=Project+Banner+Image)
+![Project Logo](./gitIMG/banner.png)
 
 ---
 
@@ -70,10 +70,10 @@ The effectiveness of TSC was validated using SR tasks. While the PSNR scores are
 
 ### Figures
 - **Figure 5**: Comparison of models at different VGG depths.
-  ![Figure 5: Model Comparison at VGG Depths](https://drive.google.com/uc?export=view&id=1irIusjm_NVQDf2GXfQY4oV9p2FA9znnt)
+  ![Figure 5: Model Comparison at VGG Depths](./gitIMG/Figure5.svg)
 
 - **Figure 6**: SSIM Map Comparison showing subordinate feature (high-frequency) restoration.
-  ![Figure 6: SSIM Map Comparison](https://drive.google.com/uc?export=view&id=10V_1Ta1KBcMoo9GkwwXihddbXj93Kgmo)
+  ![Figure 6: SSIM Map Comparison](./gitIMG/Figure6.svg)
 
 
 ---
