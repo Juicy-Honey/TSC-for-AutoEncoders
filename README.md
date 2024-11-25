@@ -1,7 +1,5 @@
 # **A New Tailored Skip Connection (TSC) for Auto Encoders**
 
-![Project Logo](./gitIMG/banner.png)
-
 ---
 
 ## 📚 **Overview**
@@ -59,8 +57,6 @@ Testing procedures are detailed in **Section 3. Test** within `TSC_master.inpyb`
 ## 📊 **Results**
 The effectiveness of TSC was validated using SR tasks. While the PSNR scores are slightly lower due to bicubic fusion, the SSIM scores are consistently higher, emphasizing improved perceptual quality.
 
-![Figure 4: Structure of SR AutoEncoder using TSC](./gitIMG/Figure4.png)
-
 | Dataset     | Bicubic        | SRCNN [7]       | **SRAE-D2 (Ours)** | EDSR [38]       | SRResNet [39]  | RCAN [40]      | DRCT-L [41]    | SwinIR [42]    |
 |-------------|----------------|-----------------|---------------------|-----------------|----------------|----------------|----------------|----------------|
 | **Set5**    | 0.806 / 27.10  | 0.862 / 30.49  | **0.880** / 29.92      | 0.896 / 32.46  | -              | -              | -              | -              |
@@ -69,14 +65,6 @@ The effectiveness of TSC was validated using SR tasks. While the PSNR scores are
 | **Urban100**| 0.655 / 21.80  | 0.722 / 24.52  | **0.757** / 23.90      | 0.803 / 26.64  | -              | 0.802 / 26.62  | 0.850 / 28.70  | 0.797 / 26.43  |
 
 > **Note**: The results highlight TSC’s ability to enhance SSIM, emphasizing perceptual quality over pixel accuracy.
-
-### Figures
-- **Figure 5**: Comparison of models at different VGG depths.
-  ![Figure 5: Model Comparison at VGG Depths](./gitIMG/Figure5.svg)
-
-- **Figure 6**: SSIM Map Comparison showing subordinate feature (high-frequency) restoration.
-  ![Figure 6: SSIM Map Comparison](./gitIMG/Figure6.svg)
-
 
 ---
 
