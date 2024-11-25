@@ -1,0 +1,16 @@
+dataName = "BSD100"
+scale = 4
+gudieModel = "bicubic"
+
+1. 
+dataName_(x{scale}).zip
+	 └ dataName_(x{scale})
+		├ HR: ground truth images
+		└ LR: down scaled images (with bicubic)
+
+2. dataName_(x{scale})_{guideModel}.zip
+	└ dataName_(x{scale})_{guideModel}
+		├ g2: x2 Super Resolved Image (when, scale >= 2)
+		└ g4: x4 Super Resolved Image (when, scale >= 4)
+
+	
