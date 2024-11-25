@@ -1,6 +1,6 @@
 # **A New Tailored Skip Connection (TSC) for Auto Encoders**
 
-~[banner image](./images/Figure1.png)
+![banner image](./images/Figure1.png)
 ---
 
 ## 📚 **Overview**
