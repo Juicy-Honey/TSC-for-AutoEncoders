@@ -2,6 +2,10 @@
 
 ![banner image](./images/Figure1.png)
 ---
+## **Notice**
+This paper is currently under review for publication in IEEE Access.
+
+---
 
 ## 📚 **Overview**
 This repository introduces **Tailored Skip Connection (TSC)**, a novel mechanism for **auto encoders** that enhances subordinate feature learning by attenuating dominant features in the latent space. TSC enables a tailored integration of dominant features through skip connections, harmonizing them with subordinate features computed in the auto encoder.
