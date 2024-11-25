@@ -1,5 +1,6 @@
 # **A New Tailored Skip Connection (TSC) for Auto Encoders**
 
+~[banner image](./images/Figure1.png)
 ---
 
 ## 📚 **Overview**
@@ -56,6 +57,7 @@ Testing procedures are detailed in **Section 3. Test** within `TSC_master.inpyb`
 
 ## 📊 **Results**
 The effectiveness of TSC was validated using SR tasks. While the PSNR scores are slightly lower due to bicubic fusion, the SSIM scores are consistently higher, emphasizing improved perceptual quality.
+![SR model structure](./images/Figure4.png)
 
 | Dataset     | Bicubic        | SRCNN [7]       | **SRAE-D2 (Ours)** | EDSR [38]       | SRResNet [39]  | RCAN [40]      | DRCT-L [41]    | SwinIR [42]    |
 |-------------|----------------|-----------------|---------------------|-----------------|----------------|----------------|----------------|----------------|
@@ -65,6 +67,9 @@ The effectiveness of TSC was validated using SR tasks. While the PSNR scores are
 | **Urban100**| 0.655 / 21.80  | 0.722 / 24.52  | **0.757** / 23.90      | 0.803 / 26.64  | -              | 0.802 / 26.62  | 0.850 / 28.70  | 0.797 / 26.43  |
 
 > **Note**: The results highlight TSC’s ability to enhance SSIM, emphasizing perceptual quality over pixel accuracy.
+>
+> ![comparison by VGG depth](./images/Figure5.svg)
+> ![SSIM map](./images/Figure6.svg)
 
 ---
 
