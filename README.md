@@ -30,6 +30,7 @@ We provide both the original datasets and our modified versions:
 - **BSD100**: [Berkeley Segmentation Dataset](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/)
 - **Urban100**: [Download and Citation](https://github.com/jbhuang0604/SelfExSR)
 - **Set5 & Set14**: [Compiled Versions](https://github.com/LimBee/NTIRE2017)
+- **Flickr2K**: [Flickr2K Dataset on Kaggle](https://www.kaggle.com/datasets/hliang001/flickr2k)
 
 Please ensure to adhere to the terms of use for each dataset.
 
