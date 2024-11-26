@@ -62,7 +62,7 @@ Testing procedures are detailed in **Section 3. Test** within `TSC_master.inpyb`
 
 ## 📊 **Results**
 The effectiveness of TSC was validated using SR tasks. While the PSNR scores are slightly lower due to bicubic fusion, the SSIM scores are consistently higher, emphasizing improved perceptual quality.
-![SR model structure](./images/Figure4.png)
+![SR model structure](./images/F4.png)
 
 | Dataset     | Bicubic        | SRCNN [7]       | **SRAE-D2 (Ours)** | EDSR [38]       | SRResNet [39]  | RCAN [40]      | DRCT-L [41]    | SwinIR [42]    |
 |-------------|----------------|-----------------|---------------------|-----------------|----------------|----------------|----------------|----------------|
